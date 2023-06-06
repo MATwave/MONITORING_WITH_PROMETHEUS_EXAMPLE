@@ -6,9 +6,12 @@
 
 ![изображение](https://github.com/MATwave/MONITORING_WITH_PROMETHEUS_EXAMPLE/assets/44034959/8f31ce6a-ab08-4b5f-8b80-a53aca3fd324)
 
+преднастроенные графики для grafanа в папке grafana-data (автоматически подгружаются при запуске)
 
 запуск:
 ```commandline
 docker compose up -d --build
 ```
+  - flask-сервер доступен по [ссылке](http://localhost:81/) и [ссылке](http://localhost:81/metrics)
+  - grafana доступна по [ссылке](http://localhost:3000/)
 
